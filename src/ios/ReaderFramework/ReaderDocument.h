@@ -26,7 +26,7 @@
 #import <Foundation/Foundation.h>
 
 @interface ReaderDocument : NSObject <NSObject, NSCoding>
-
+//testing
 @property (nonatomic, strong, readonly) NSString *guid;
 @property (nonatomic, strong, readonly) NSDate *fileDate;
 @property (nonatomic, strong, readwrite) NSDate *lastOpen;
